@@ -1,0 +1,33 @@
+.cabecalho{
+  padding: 2rem;
+  background-image: url('../../../public/images/banner1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.title{
+  text-align: right;
+  font-size: 3rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+.subTitle{
+  text-align: right;
+  margin-right: 1rem;
+}
+.botao{
+  text-align: right;
+  margin: 3rem 1rem;
+}
+.precos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem;
+  flex-wrap: wrap;
+}

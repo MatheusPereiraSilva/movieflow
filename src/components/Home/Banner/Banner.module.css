@@ -1,0 +1,25 @@
+.banner{
+  background-image: url('../../../../public/images/banner2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem 1rem 1rem;
+  flex-wrap: wrap;
+}
+.title{
+  color: #fff;
+  font-size: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+.subTitle{
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+.botao{
+  margin-left: 2rem;
+}

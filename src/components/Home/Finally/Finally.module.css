@@ -1,0 +1,15 @@
+.final{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+.info{
+  text-align: center;
+}
+.info h1{
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
