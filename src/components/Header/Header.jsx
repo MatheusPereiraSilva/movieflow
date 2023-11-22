@@ -11,7 +11,7 @@ const Header = () => {
         <nav>
           <BrowserRouter>
             <Routes>
-              <Route path='/inicio' element={<Inicio/>}/>
+              <Route path='inicio' element={<Inicio/>}/>
               <Route path='lancamentos' element={<Lanamentos/>}/>
               <Route path='categorias' element={<Categorias/>}/>
               <Route path='perfil' element={<Perfil/>}/>
