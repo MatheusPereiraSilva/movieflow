@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import Home from "./components/Home/Home";
+import Categories from "./components/pages/Categories/Categories";
 
 function App() {
   return <>
-    <Home/>
+    <Categories/>
   </>;
 }
 
