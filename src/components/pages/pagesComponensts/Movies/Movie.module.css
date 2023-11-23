@@ -1,0 +1,54 @@
+.dFlex {
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.divHover {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.container {
+  padding: 5px;
+  display: none;
+}
+.dFlex:hover .container{
+  display: block;
+  z-index: 999;
+}
+
+.dFlex:hover .divHover {
+  opacity: 1;
+}
+
+.filmList{
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  margin-left: 6rem;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.top img{
+  max-width: 50px;
+}
+.top h1{
+  font-size: 25px;
+}
+.rating img{
+  max-width: 40px;
+  max-height: 40px;
+  margin: 10px 0px 10px 0px
+}
+
+.description{
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 2;
+}
