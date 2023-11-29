@@ -12,12 +12,6 @@ const Home = () => {
   return (
     <>
       <section className={styles.cabecalho}>
-        <div className={styles.menu}>
-          <a href="/">
-            <Logao />
-          </a>
-          <Button>Entrar</Button>
-        </div>
         <h1 className={styles.title}>MovieFlow streaming de filmes e séries</h1>
         <h2 className={styles.subTitle}>
           {" "}

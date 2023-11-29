@@ -8,7 +8,6 @@
 
 .fundo {
   grid-area: 1 / 1;
-  z-index: 1;
 }
 
 .banner {
@@ -30,7 +29,7 @@
   cursor: pointer;
 }
 .title{
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   margin-top: 2rem;
   font-weight: bold;
   margin-bottom: 4rem;
@@ -40,4 +39,34 @@
 .reproduzir{
   font-size: 3rem;
   font-weight: bold;
+}
+
+@media screen and (max-width:1400px){
+ .fundo {
+  max-width: 90vw;
+ }
+}
+@media screen and (max-width:1050px){
+  .title{
+    font-size: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: .1rem;
+  }
+  .reproduzir{
+    font-size: 2rem;
+  }
+  .line {
+    gap: 5px;
+  }
+  .container{
+    margin-top: 1rem;
+  }
+  .image {
+    max-width: 35px;
+    max-height: 35px;
+  }
+  .rating img{
+    max-width: 35px;
+    max-height: 35px;
+  }
 }

@@ -4,12 +4,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
 .title{
   text-align: right;
   font-size: 3rem;

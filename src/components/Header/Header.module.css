@@ -1,0 +1,22 @@
+.logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.navigate{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.color {
+  color: #fff;
+  transition: .3s;
+}
+
+.color:hover{
+  color: rgb(194, 182, 215);
+}

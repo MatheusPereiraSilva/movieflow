@@ -1,31 +1,62 @@
-.dFlex {
-  display: block;
-  transition: opacity 0.3s ease;
+.slide{
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  max-width: 1000px;
 }
-
-.divHover {
-  opacity: 0;
-  transition: opacity 0.3s ease;
+.dFlex {
+  position: relative;
+  border: 1px solid #000;
+  padding: 1px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  transition: .3s;
+  max-width: 1000px;
+}
+.dFlex:hover{
+  border-color: #eee;
+}
+.dFlex img{
+  cursor: pointer;
 }
 
 .container {
   padding: 5px;
-  display: none;
-}
-.dFlex:hover .container{
   display: block;
-  z-index: 999;
-}
-
-.dFlex:hover .divHover {
-  opacity: 1;
 }
 
 .filmList{
   display: flex;
-  gap: 20px;
-  overflow: hidden;
+  /* gap: 20px; */
+  overflow-x: hidden;
   margin-left: 6rem;
+  scroll-behavior: smooth;
+}
+.filmList::-webkit-scrollbar{
+  display: none;
+}
+.btn{
+  display: flex;
+  justify-content: space-between;
+}
+.btn button {
+  width: 50px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  opacity: .1;
+  font-weight: 800;
+  font-size: 2rem;
+  position: relative;
+  top: -300px;
+  z-index: 9999;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  opacity: 1;
 }
 
 .top{
