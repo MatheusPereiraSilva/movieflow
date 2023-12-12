@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Planos.module.css'
+import styles from './PLanos.module.css'
 import Buttons from '../../Buttons/Buttons'
 
 const PLanos = ({title, list, price}) => {
